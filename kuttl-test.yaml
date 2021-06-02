@@ -1,3 +1,6 @@
 apiVersion: kuttl.dev/v1beta1
 kind: TestSuite
 namespace: test-project
+#commands:
+#  - command: operator-sdk run --local
+#    background:  true
