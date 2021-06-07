@@ -5,4 +5,5 @@
 1. Ensure you have operator SDK 0.15.2 installed
 1. Run the controller locally with 'operator-sdk run --local'
 1. Ensure you have the kuttl plugin for kubectl installed correctly
-1. Run 'kubectl kuttl test ./test/il'
+1. Run 'kubectl kuttl test ./test/il'  
+In order to run the storage test, you will also need to ensure that your cluster has some storage configured
